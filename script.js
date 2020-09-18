@@ -7,6 +7,7 @@ $(document).ready(function () {
     console.log("You called the api!");
     setTimeout(function () {
       $("#display").empty();
+      $("#search-term").val("");
       $("#display").append(
         $("<h1>This is my returned data: " + searchTerm + "</h1>")
       );
